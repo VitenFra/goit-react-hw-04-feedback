@@ -1,0 +1,19 @@
+.stList{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.stItem{
+    
+    font-weight: 700;
+
+  
+}
+
+.stValue{
+display: inline-block;
+padding:0 10px;
+
+    
+}
