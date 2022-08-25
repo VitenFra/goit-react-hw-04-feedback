@@ -38,7 +38,7 @@ export const App = () => {
         <Section title={'Будь ласка, залиште відгук'}>
             
             <FeedbackOptions
-                options={['good', 'neutral', 'bad']}
+                options={Object.keys({ good, neutral, bad })}
                 onLeaveFeedback={hendleClick}
             />
         </Section>
